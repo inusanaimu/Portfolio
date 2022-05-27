@@ -1,0 +1,226 @@
+/* Major Style */
+
+.container{
+    background-color: #091930;
+    width: 100%;
+    text-align:center;
+    
+}
+.container h2 {
+    text-align: center;
+    margin: 20px auto !important;
+    color: #909090;
+    background:linear-gradient(to right, rgba(249, 105, 14, 1), rgba(150, 150, 150, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#calculator {
+    background-color: #091940;
+    width: 35%;
+    min-height: auto;
+    max-height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 -5px 15px 3px rgba(255,255, 255, 0.09),
+    inset 0 -15px 15px 3px rgba(0, 0, 0, 0.09),
+    0 15px 15px 3px rgba(255,255, 255, 0.05),
+    inset 0 15px 15px 3px rgba(0, 0, 0, 0.09);
+}
+
+.form-control {
+    height: 50px;
+    font-size: 15px;
+    display: inline-block;
+    margin: 28px auto 0px auto;
+    text-align: right;
+    width: 95% !important;
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 396px;
+    }
+}
+
+
+/*  style Button-Primary */
+
+.btn-primary {
+    width: 15.7%;
+    height: 40px;
+    margin-left: 9px;
+    margin-bottom: 14px;
+}
+
+.btn-lg {
+    width: 92%;
+    height: 50px;
+}
+
+button#comma {
+    font-weight: bold;
+}
+
+.keys {
+    width: 100%;
+    display: inline-block;
+    margin: 15px 7px 15px 7px;
+}
+
+
+/* MEDIA QUERIE Mini-Laptop screen view */
+
+@media (max-width:1199px) and (min-width:990px) {
+    #calculator {
+        width: 38%;
+    }
+    .form-control {
+        margin-left: 0px;
+    }
+    .keys {
+        width: 100%;
+        display: inline-block;
+        margin: 15px 5px 15px 5px;
+    }
+    .btn-lg {
+        width: 92.5%;
+        height: 45px;
+    }
+}
+
+
+/* MEDIA QUERIE Tablet Screen View */
+
+@media (max-width:991px) and (min-width:768px) {
+    #calculator {
+        width: 47%;
+        height: 500px;
+    }
+    .form-control {
+        margin-left: 0px;
+    }
+    .keys {
+        width: 100%;
+        display: inline-block;
+        margin: 0px 1px 15px 0px;
+    }
+    .btn-lg {
+        width: 93%;
+        height: 45px;
+    }
+}
+
+
+/* MEDIA QUERIE Mobile large screen */
+
+@media (max-width:767px) {
+    #calculator {
+        width: 46%;
+    }
+
+    .container h2 {
+        margin-left: 223px;
+        font-size: 2.5rem;
+    }
+    .keys {
+        width: 100%;
+        display: inline-block;
+        margin: 0px;
+        margin-left: 4px !important;
+    }
+    .btn-primary {
+        width: 15%;
+    }
+    .btn-lg {
+        width: 93.5%;
+        height: 44px;
+    }
+}
+
+@media (max-width:578px) {
+    #calculator {
+        width: 65%;
+        height: 500px;
+    }
+
+    .container h2 {
+        margin-left: 130px;
+        font-size: 2.3rem;
+    }
+    .keys {
+        width: 100%;
+        display: inline-block;
+        margin: 0px;
+        margin-left: 6px !important;
+    }
+    .btn-primary {
+        width: 15%;
+    }
+    .btn-lg {
+        width: 90%;
+        height: 44px;
+    }
+}
+
+@media (max-width:448px) {
+    #calculator {
+        width: 85%;
+        height: 500px;
+    }
+    .keys {
+        width: 100%;
+        display: inline-block;
+        margin: 0px;
+        margin-left: 6px !important;
+    }
+    .btn-primary {
+        width: 15%;
+    }
+    .btn-lg {
+        width: 90%;
+        height: 44px;
+    }
+}
+
+@media (max-width:375px) {
+    #calculator {
+        width: 100%;
+        height: 500px;
+    }
+    .keys {
+        width: 100%;
+        display: inline-block;
+        margin: 0px;
+        margin-left: 4px !important;
+    }
+    .btn-primary {
+        width: 15%;
+        /* margin-left: 8px; */
+    }
+    .btn-lg {
+        width: 91%;
+        height: 44px;
+    }
+}
+
+/************** Footer style below here*/
+footer{
+    text-align: center;
+
+}
+.footernote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    text-decoration: underline;
+    opacity: 1;
+    background:linear-gradient(to right, rgba(249, 105, 14, 1), rgba(155, 155, 155, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+body{
+    background-color: #091940;
+}

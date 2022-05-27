@@ -1,0 +1,139 @@
+.cvpreview {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  width: 150px;
+}
+.cvpreview:hover {
+  width: 100%;
+}
+.profile {
+  padding: 4px;
+  border: 4px solid white;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+abbr {
+  text-decoration: none;
+}
+.myname {
+  text-shadow: 2px 2px 2px black;
+}
+.wantleft {
+  display: inline;
+  float: left;
+}
+/* -----This the begging of the modal image ------ */
+#myImg,
+#myimg2,
+#myimg3,
+#myimg4,
+#myimg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover,
+#myimg2:hover,
+#myimg3:hover,
+#myimg4:hover,
+#myimg5:hover {
+  opacity: 0.7;
+}
+
+.profilehr hr {
+  margin: 0px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption,
+#caption2,
+#caption3,
+#caption4,
+#caption5 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption,
+#caption2,
+#caption3,
+#caption4,
+#caption5 {
+  animation-name: zoom;
+  animation-duration: 0.8s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}

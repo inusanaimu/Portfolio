@@ -1,0 +1,60 @@
+html {
+  font-size: 10px;
+  color: #092020;
+}
+body {
+  background: #4f8def;
+  font-family: "helvetica neue";
+  font-weight: 200;
+  font-size: 20px;
+
+}
+.ctsdiv{
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+}
+.clicktospeak{
+  font: 1em sans-serif;
+  color: #093030;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: auto;
+  position: relative;
+
+}
+
+.words {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(#d9eaf3),
+      color-stop(4%, #fff)
+    )
+    0 4px;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
+}
+
+p {
+  margin: 0 0 3rem;
+}
+
+.words:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #ff9999;
+}
