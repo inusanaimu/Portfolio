@@ -56,6 +56,7 @@ img {
 #navList li a {
   text-decoration: none;
   color: #00ba;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
