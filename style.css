@@ -13,6 +13,14 @@ body {
   background: rgb(20, 20, 20);
 }
 
+.banner h1,
+h3 {
+  color: black;
+  font-weight: normal;
+  -webkit-text-stroke: 1px rgb(20, 20, 20);
+  line-height: 1.5em;
+}
+
 .banner {
   max-width: 50em;
   margin: 15px auto 15px auto;
