@@ -10,12 +10,12 @@
 
 body {
   position: relative;
-  background: rgb(255, 255, 255);
+  background: rgb(20, 20, 20);
 }
 
 .banner {
   max-width: 50em;
-  margin: 0 auto 15px auto;
+  margin: 15px auto 15px auto;
   padding: 10px 5px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
@@ -55,7 +55,7 @@ img {
 }
 #navList li a {
   text-decoration: none;
-  color: #00ba;
+  color: white;
   font-weight: bold;
 }
 
@@ -63,12 +63,5 @@ img {
   #navList li {
     display: block;
     margin: 6px;
-  }
-  .banner {
-    width: 100%;
-    position: absolute;
-  }
-  img {
-    margin-top: 240px;
   }
 }
