@@ -10,23 +10,20 @@
 
 body {
   position: relative;
-  background: rgb(20, 20, 20);
+  background: rgb(5, 15, 20);
 }
 
 .banner h1,
 h3 {
   color: black;
-  font-weight: normal;
-  -webkit-text-stroke: 1px rgb(20, 20, 20);
-  line-height: 1.5em;
 }
 
 .banner {
-  max-width: 50em;
-  margin: 15px auto 15px auto;
-  padding: 10px 5px;
+  max-width: 49.8em;
+  margin: 0.94em auto 0.94em auto;
+  padding: 0.625em 0.313em;
   background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
+  border-radius: 1em;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
