@@ -16,6 +16,10 @@ body {
 .banner h1,
 h3 {
   color: black;
+  -webkit-text-fill-color: aliceblue;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin-bottom: 10px;
 }
 
 .banner {
@@ -53,20 +57,31 @@ img {
   max-width: 100%;
   object-fit: contain;
 }
-
-#navList li {
-  display: inline;
-  margin: 16px;
+.list {
+  /* display: inline; */
 }
-#navList li a {
+li {
+  display: inline;
+}
+.navList li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
+.navList li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
-  #navList li {
-    display: block;
-    margin: 6px;
+  .navList li {
+    display: inline;
+    margin: 16px;
+  }
+  .banner h1,
+  h3 {
+    color: white;
+    margin-bottom: 10px;
   }
 }
